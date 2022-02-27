@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Persona Bond Patch for Cerberus Weapons</name>
+	<author>Daria40K</author>
+	<packageId>Daria40K.PersonaBondPatch.CerberusWeapons</packageId>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<description>Persona Bond Patch for Cerberus Weapons</description>
+    <modDependencies>
+        <li>
+            <packageId>xedos.personabond</packageId>
+            <displayName>Persona Bond Forge</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2178003816</steamWorkshopUrl>
+        </li>
+
+        <li>
+            <packageId>sovereign.cerberusweapons</packageId>
+            <displayName>Cerberus Weapons</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2761724281</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>daria40k.personabondpatch.rimeffectn7</li>
+    </loadAfter>
+</ModMetaData>
